@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top__menu {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    justify-content: center;
+    justify-items: center;
+    gap: 55px;
+}
+
+.name__top__menu {
+    padding-top: 25px;
+    padding-bottom: 17px;
+
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text__top__menu {
+    width: 310px;
+    display: inline-block;
+
+    color: #666;
+    font-family: "Gilroy-Regular", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%
+}
+
+.info__top__menu {
+    padding-top: 25px;
+
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%
+}
+
+.menu {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.title__text__content {
+    text-align: center;
+
+    color: #000;
+    font-family: Gilroy-Bold, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text__content {
+    display: inline-block;
+    padding-top: 19px;
+    width: 682px;
+    height: 48px;
+
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%
+}
+
+.text {
+    text-align: center;
+    align-items: center;
+}
+
+.content__select {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 549;
+    gap: 9px;
+    justify-content: center;
+}
+
+.select {
+    text-align: center;
+}
+
+.title__select {
+    padding-bottom: 22px;
+
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text__select {
+    width: 310px;
+    height: 63px;
+    display: inline-block;
+    padding-bottom: 39px;
+
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.grid_img {
+    padding-bottom: 21px;
+    width: 400px;
+    height: 300px;
+}
+
+.button {
+    color: #FFFFFF;
+    width: 150px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 50px;
+    border: none;
+    margin: 0 auto;
+}
